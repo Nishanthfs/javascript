@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conv.css"type="text/css">
+    <title> NJ length converter</title>
+</head>
+<body>
+    <div id="wrapp">
+        <h2> cm to inches</h2>
+        <div>
+            <input type="text" id="input" placeholder="type the value">
+
+        </div>
+        <div>
+            <button type="submit"id="button" onclick="convert()">converter</button>
+        </div>
+        <div id="result">
+
+        </div>
+    </div>
+    <script>
+        function convert(){
+          const len= Number(document.getElementById("input").value)
+          const inch=len/2.54
+          const result=document.getElementById("result")
+          result.innerHTML=inch.toFixed(2)+ " inches"
+
+        }
+    </script>
+    
+</body>
+</html>

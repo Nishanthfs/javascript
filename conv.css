@@ -1,0 +1,55 @@
+body{
+    background-color:blue ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+}
+#wrapp div,#wrapp h2{
+    display: flex;
+    justify-content: center;
+}
+#h2{
+    color:white;
+}
+#input{
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid blue; 
+    height: 1em;
+    font-weight: 100px;
+    
+}
+input:active{
+    border: none;
+}
+#wrapp{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 200px auto;
+    
+   
+
+}
+#button{
+    color:darkred;
+    border-radius: 2px;
+    height: 22px;
+    
+    
+}
+#button:active{
+    color: blue;
+    
+}
+#button:hover{
+    cursor: pointer;
+}
+#result{
+    color: black;
+    padding: 2px;
+    margin: 20px;
+}
